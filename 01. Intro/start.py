@@ -9,8 +9,11 @@ a = "Apple"
 print(type(a), a)
 print(len(a))'''
 
-text = "Hello my friend!\n How are you today?"
-print(text)
-print("Len: ", len(text))
-print(text.find("?"))
+text = "hello world"
+print(f"{text}")
+# print("Len: ", len(text))
+print(text.find("l"))
 print(text.islower())
+print(text.capitalize())
+print(text.isupper())
+print(text.replace("world", "test"))
